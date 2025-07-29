@@ -1,0 +1,120 @@
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+
+  /* Palette */
+  --su-dark-grey: #959595;
+  --su-charcoal: #2c2825;
+  --su-yellow: #f9bd07;
+  --su-white: #f5f4f3;
+  --su-blue: #5881c1;
+
+  /* Brand colors */
+  --color-foreground: var(--su-charcoal);
+  --color-background: var(--su-white);
+  --color-primary: var(--su-yellow);
+  --color-secondary: var(--su-dark-grey);
+  --color-info: var(--su-blue);
+
+  /* Typography */
+  --link-color: var(--color-info);
+}
+body {
+    color: var(--color-foreground);
+    background: var(--color-background);
+}
+
+.dark {
+    --theme: rgb(29, 30, 32);
+    --entry: rgb(46, 46, 51);
+    --primary: rgb(218, 218, 219);
+    --secondary: rgb(155, 156, 157);
+    --tertiary: rgb(65, 66, 68);
+    --content: rgb(196, 196, 197);
+    --code-block-bg: rgb(46, 46, 51);
+    --code-bg: rgb(55, 56, 62);
+    --border: rgb(51, 51, 51);
+}
+
+.list {
+    background: var(--code-bg);
+}
+
+.dark.list {
+    background: var(--theme);
+}
+.navbar-buttons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.nav-btn {
+  padding: 4px 10px;
+  border-radius: 3px;
+  border: none;
+  background: var(--color-primary);
+  color: var(--color-foreground);
+  font-weight: 400;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.nav-btn:hover {
+  background: var(--color-secondary);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
+}
+
+.logo-image {
+  height: 38px;
+  width: auto;
+  display: block;
+  margin-right: 12px; /* Adjust as needed for spacing */
+}
+
+/* Adjust selector if your TOC uses a different class */
+.toc, .TableOfContents {
+  background: var(--color-background);
+  border-radius: 8px;
+  padding: 1em;
+  border: 1px solid var(--color-primary);
+}
+
+.toc a, .TableOfContents a {
+  color: var(--color-primary);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.toc a:hover, .TableOfContents a:hover {
+  color: var(--color-info);
+  text-decoration: underline;
+}
+
+/* Dark mode overrides */
+.dark .toc,
+.dark .TableOfContents {
+  background: var(--entry);
+  border-color: var(--color-primary);
+}
+
+.dark .toc a,
+.dark .TableOfContents a {
+  color: var(--color-primary);
+}
+
+.dark .toc a:hover,
+.dark .TableOfContents a:hover {
+  color: var(--color-info);
+}

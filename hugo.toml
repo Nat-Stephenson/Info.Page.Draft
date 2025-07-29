@@ -1,0 +1,33 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Demand and Capacity Healthcare Model'
+theme = 'PaperMod'
+
+[params]
+ShowPostNavigation = true
+ShowReadingTime = true
+ShowLastmod = true
+ShowToc = true
+
+  [[menu.main]]
+    identifier = 'Model Inputs'
+    name = 'Model Inputs'
+    pageRef = 'ModelInputs.md'
+    weight = 1
+
+  [[menu.main]]
+    identifier = 'Model Outputs'
+    name = 'Model Outputs'
+    pageRef = 'ModelOutputs.md'
+    weight = 2
+
+    [[menu.main]]
+    identifier = 'probabilistic'
+    name = 'Probabilistic'
+    pageRef = 'Probabilistic.md'
+    weight = 3
+
+    [[menu.main]]
+    name = 'Github'
+    url = 'https://github.com/The-Strategy-Unit'
+    weight = 4
