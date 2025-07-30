@@ -56,6 +56,15 @@ body {
 .dark.list {
     background: var(--theme);
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: var(--header-height);
+  background: var(--color-background);
+  border-bottom: 1px solid var(--color-primary);
+}
 .navbar-buttons {
   display: flex;
   gap: 12px;
