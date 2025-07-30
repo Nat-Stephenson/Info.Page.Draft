@@ -5,9 +5,14 @@ title = 'Welcome to the healthcare demand model'
 description = 'Our award-winning demand model supports better patient outcomes and smarter public spending.'
 
 +++
-## Transforming healthcare planning ##
+<div align="center">
 
-### *Our award-winning demand model supports better patient outcomes and smarter public spending.* ###
+# Welcome! To The Healthcare Demand Model #
+
+## Transforming Healthcare Planning ##
+
+*Our award-winning demand model supports better patient outcomes and smarter public spending.*
+</div>
 
 1. Model at Site, Trust, Regional, or National population level.
 2. Quantify how much activity could be avoided- the model introduces a shared language for describing 'potentially mitigable activity'. 
@@ -15,6 +20,6 @@ description = 'Our award-winning demand model supports better patient outcomes a
 
 ![Demand and Capacity Model](/D&CInfograph.png)
 
-## Transparent and Open Source ##
+**Transparent and Open Source**
 The model codebase, documentation, and quality assurance are are all available on GitHub.
 

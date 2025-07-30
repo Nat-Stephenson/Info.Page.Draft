@@ -22,4 +22,4 @@ Because the model runs hundreds of simulations to generate a range of possible f
 
 - **S-Curve Charts**: These charts display the cumulative distribution of activity over time, helping users understand the timing and scale of potential future demand.
 
-**note**: Where point estimates of demand are required by the user, these are generated from the average of all the simulations. This is known as the principle projection.
+**Note**: Where point estimates of demand are required by the user, these are generated from the average of all the simulations. This is known as the principle projection.

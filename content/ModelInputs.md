@@ -58,4 +58,4 @@ For each of these categories, users can forecast how much activity they believe 
 
 In the model outputs, the scale of the impact of these activity mitigation assumptions can be viewed. 
 
-For further information on the activity mitigation assumptions, please refer to the [Activity Mitigators](connect.strategyunitwm.nhs/nhp/project_information/modelling_methodology/activity_mitigators/inpatient_activity-mitigators.html) page.
+For further information on the activity mitigation assumptions, please refer to the [Activity Mitigators](https://connect.strategyunitwm.nhs/nhp/project_information/modelling_methodology/activity_mitigators/inpatient_activity-mitigators.html) page.
