@@ -45,6 +45,14 @@ body {
     background: var(--code-bg);
 }
 
+.center {
+  text-align: center;
+}
+
+.home h1, .home h2, .home h3 {
+  text-align: center;
+}
+
 .dark.list {
     background: var(--theme);
 }

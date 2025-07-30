@@ -5,14 +5,11 @@ title = 'Welcome to the healthcare demand model'
 description = 'Our award-winning demand model supports better patient outcomes and smarter public spending.'
 
 +++
-<div align="center">
 
-# Welcome! To The Healthcare Demand Model #
+# Welcome! To The Healthcare Demand Model # {.center }
+### *Transforming Healthcare Planning* ### {.center }
 
-## Transforming Healthcare Planning ##
-
-*Our award-winning demand model supports better patient outcomes and smarter public spending.*
-</div>
+**Our award-winning demand model supports better patient outcomes and smarter public spending.** {.center }
 
 1. Model at Site, Trust, Regional, or National population level.
 2. Quantify how much activity could be avoided- the model introduces a shared language for describing 'potentially mitigable activity'. 
