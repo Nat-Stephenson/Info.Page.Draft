@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://infopa.netlify.app/'
 languageCode = 'en-us'
 title = 'Demand and Capacity Healthcare Model'
 theme = 'PaperMod'
@@ -31,4 +31,3 @@ ShowToc = true
     name = 'Github'
     url = 'https://github.com/The-Strategy-Unit'
     weight = 5
-    

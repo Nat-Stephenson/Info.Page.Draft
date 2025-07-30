@@ -2,5 +2,10 @@
   command = "hugo"
   publish = "public"
 
+  [[redirects]]
+  from = "/*"
+  to = "/"
+  status = 302
+
 [context.production.environment]
   HUGO_VERSION = "0.148.1"
