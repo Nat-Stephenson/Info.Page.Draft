@@ -17,5 +17,5 @@ description = 'Our award-winning demand model supports better patient outcomes a
 
 ![Demand and Capacity Model](/D&CInfograph.png)
 
-**Transparent and Open Source:** *The model codebase, documentation, and quality assurance are are all available on GitHub.*
+**Transparent and Open Source:** *The model codebase, documentation, and quality assurance are are all available on GitHub. For more information regarding this, please [click here](/content/TransparentOpen/)*
 

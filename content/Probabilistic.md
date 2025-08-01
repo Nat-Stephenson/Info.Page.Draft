@@ -11,4 +11,4 @@ Many of the model input parameters allow the user to provide their forecasts in 
 
 When the model is run, it performs hundreds of simulations based on these input ranges, generating a distribution of possible future healthcare demand scenarios. As such, the model outputs enable the user to explore the variation in the projected demand and plan accordingly.
 
-For a technical overview of the probabilistic forecasting approach used in the model, please refer to the [Overview of Methodology](https://connect.strategyunitwm.nhs/nhp/project_information/modelling_methodology/overview_of_methodology.html).
+For a technical overview of the probabilistic forecasting approach used in the model, please refer to the [Overview of Methodology](https://connect.strategyunitwm.nhs.uk/nhp/project_information/).
