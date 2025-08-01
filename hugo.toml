@@ -4,10 +4,10 @@ title = 'Demand and Capacity Healthcare Model'
 theme = 'PaperMod'
 
 [params]
-ShowPostNavigation = true
-ShowReadingTime = true
-ShowLastmod = true
+ShowCodeCopyButtons = true
 ShowToc = true
+ShowSidebar = true
+ShowSidebarMenu = true
 
 [[menu.main]]
   identifier = 'Model Inputs'
@@ -16,7 +16,7 @@ ShowToc = true
   weight = 2
 
 [[menu.main]]
-  parent = 'Model Inputs'
+  identifier = 'Baseline'
   name = 'Baseline'
   pageRef = 'Baseline.md'
   weight = 3
@@ -28,7 +28,6 @@ ShowToc = true
   weight = 4
 
 [[menu.main]]
-  parent = 'Model Outputs'
   identifier = 'probabilistic'
   name = 'Probabilistic'
   pageRef = 'Probabilistic.md'
