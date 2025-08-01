@@ -16,24 +16,25 @@ ShowSidebarMenu = true
   weight = 2
 
 [[menu.main]]
-  identifier = 'Baseline'
-  name = 'Baseline'
-  pageRef = 'Baseline.md'
-  weight = 3
-
-[[menu.main]]
   identifier = 'Model Outputs'
   name = 'Model Outputs'
   pageRef = 'ModelOutputs.md'
+  weight = 3
+
+[[menu.main]]
+  identifier = 'Probabilistic'
+  name = 'Probabilistic'
+  pageRef = 'Probabilistic.md'
   weight = 4
 
 [[menu.main]]
-  identifier = 'probabilistic'
-  name = 'Probabilistic'
-  pageRef = 'Probabilistic.md'
+  identifier = 'Use Case Examples'
+  name = 'Use Case Examples'
+  pageRef = 'UseCase.md'
   weight = 5
 
 [[menu.main]]
+  identifier = 'Contact'
   name = 'Contact'
   url = 'mailto:mlcsu.su.datascience@nhs.net'
   weight = 6
