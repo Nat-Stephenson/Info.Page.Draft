@@ -1,11 +1,9 @@
 +++
 # date = 2025-07-29T12:10:28+01:00
 draft = false
-title = "Probabilistic"
+title = "Probabilistic Forecasting"
 description = "The model accounts for the inherent uncertainty of forecasting future healthcare demand."
 +++
-
-## Probabilistic Forecasting ##
 
 Many of the model input parameters allow the user to provide their forecasts in the form of ranges (80% prediction intervals) rather than point estimates. This enables users to quantify their uncertainty behind their input assumptions- the wider the range, the greater the uncertainty. 
 
