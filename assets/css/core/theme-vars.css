@@ -139,37 +139,37 @@ a:hover {
 
 /* Adjust selector if your TOC uses a different class */
 .toc, .TableOfContents {
-  background: var(--color-background);
+  background: var(--su-white);
   border-radius: 8px;
   padding: 1em;
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--su-blue);
 }
 
 .toc a, .TableOfContents a {
-  color: var(--color-primary);
+  color: var(--su-blue);
   font-weight: 500;
-  text-decoration: none;
+  text-decoration: underline;
   transition: color 0.2s;
 }
 
 .toc a:hover, .TableOfContents a:hover {
-  color: var(--color-info);
+  color: var(--su-yellow);
   text-decoration: underline;
 }
 
 /* Dark mode overrides */
 .dark .toc,
 .dark .TableOfContents {
-  background: var(--entry);
-  border-color: var(--color-primary);
+  background: var(--su-charcoal);
+  border-color: var(--su-yellow);
 }
 
 .dark .toc a,
 .dark .TableOfContents a {
-  color: var(--color-primary);
+  color: var(--su-yellow);
 }
 
 .dark .toc a:hover,
 .dark .TableOfContents a:hover {
-  color: var(--color-info);
+  color: var(--su-blue);
 }
