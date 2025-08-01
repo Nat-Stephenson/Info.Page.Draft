@@ -94,6 +94,19 @@ body {
   background: var(--color-secondary);
 }
 
+.github-icon {
+  background: none;
+  padding: 0 6px;
+  color: var(--color-foreground);
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.github-icon:hover {
+  color: var(--color-info);
+  background: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
