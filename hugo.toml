@@ -9,25 +9,32 @@ ShowReadingTime = true
 ShowLastmod = true
 ShowToc = true
 
-  [[menu.main]]
-    identifier = 'Model Inputs'
-    name = 'Model Inputs'
-    pageRef = 'ModelInputs.md'
-    weight = 2
+[[menu.main]]
+  identifier = 'Model Inputs'
+  name = 'Model Inputs'
+  pageRef = 'ModelInputs.md'
+  weight = 2
 
-  [[menu.main]]
-    identifier = 'Model Outputs'
-    name = 'Model Outputs'
-    pageRef = 'ModelOutputs.md'
-    weight = 3
+[[menu.main]]
+  parent = 'Model Inputs'
+  name = 'Baseline'
+  pageRef = 'Baseline.md'
+  weight = 3
 
-    [[menu.main]]
-    identifier = 'probabilistic'
-    name = 'Probabilistic'
-    pageRef = 'Probabilistic.md'
-    weight = 4
+[[menu.main]]
+  identifier = 'Model Outputs'
+  name = 'Model Outputs'
+  pageRef = 'ModelOutputs.md'
+  weight = 4
 
-    [[menu.main]]
-    name = 'Github'
-    url = 'https://github.com/The-Strategy-Unit'
-    weight = 5
+[[menu.main]]
+  parent = 'Model Outputs'
+  identifier = 'probabilistic'
+  name = 'Probabilistic'
+  pageRef = 'Probabilistic.md'
+  weight = 5
+
+[[menu.main]]
+  name = 'Contact'
+  url = 'mailto:mlcsu.su.datascience@nhs.net'
+  weight = 6
