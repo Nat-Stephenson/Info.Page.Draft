@@ -53,6 +53,23 @@ body {
   text-align: center;
 }
 
+/* SU brand link and text colors */
+.content a,
+.markdown a,
+.main-content a,
+a {
+  color: var(--su-charcoal) !important;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.content a:hover,
+.markdown a:hover,
+.main-content a:hover,
+a:hover {
+  color: var(--su-yellow) !important;
+}
+
 .dark.list {
     background: var(--theme);
 }
