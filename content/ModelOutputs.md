@@ -7,8 +7,6 @@ description = 'The key outputs of the model are estimates of the future hospital
 
 ## Key Outputs of the Model ##
 
-The key outputs of the model are estimates of future hospital activity which can be viewed as high-level summaries or at an individual-level of granularity.
-
 High-level summary statistics include:
 
 - Counts of inpatient admissions
