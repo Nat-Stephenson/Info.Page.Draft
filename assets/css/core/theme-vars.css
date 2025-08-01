@@ -58,7 +58,7 @@ body {
 .markdown a,
 .main-content a,
 a {
-  color: var(--su-charcoal) !important;
+  color: var(--su-blue) !important;
   text-decoration: underline;
   transition: color 0.2s;
 }
