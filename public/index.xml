@@ -29,20 +29,19 @@
       <description>The key outputs of the model are estimates of the future hospital activity which can be viewed as high-level summaries or at an individual-level of granularity.</description>
     </item>
     <item>
+      <title>New Hospitals Programme (NHP) - NHS</title>
+      <link>http://localhost:1313/usecase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/usecase/</guid>
+      <description>&lt;p&gt;The demand and capacity model was originally developed to support the New Hospitals Programme (NHP) in the NHS. The model is being used by the NHP Schemes and their local health systems to estimate the future healthcare activity which their hospital infrastructure will need to accommodate.&lt;/p&gt;
+&lt;p&gt;In this use case, the model being run at a Trust of Site level, with the model inputs being the Trust&amp;rsquo;s current and future population, and the model outputs being the future healthcare activity at that Trust or Site.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Probabilistic</title>
       <link>http://localhost:1313/probabilistic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/probabilistic/</guid>
       <description>The model accounts for the inherent uncertainty of forecasting future healthcare demand.</description>
-    </item>
-    <item>
-      <title>Use Case - New Hospitals Programme (NHP) - NHS</title>
-      <link>http://localhost:1313/usecase/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/usecase/</guid>
-      <description>&lt;h2 id=&#34;new-hospitals-programme-nhp---nhs&#34;&gt;New Hospitals Programme (NHP) - NHS&lt;/h2&gt;
-&lt;p&gt;The demand and capacity model was originally developed to support the New Hospitals Programme (NHP) in the NHS. The model is being used by the NHP Schemes and their local health systems to estimate the furture healthcare activity which their hospital infrstructure weill need to accomodate.&lt;/p&gt;
-&lt;p&gt;In this use case, the model being run at a Trust of Site level, with the model inputs being the Trust&amp;rsquo;s current and future population, and the model outputs being the future healthcare activity at that Trust or Site.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
