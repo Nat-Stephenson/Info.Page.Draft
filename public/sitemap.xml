@@ -10,11 +10,11 @@
   </url><url>
     <loc>http://localhost:1313/modeloutputs/</loc>
   </url><url>
+    <loc>http://localhost:1313/usecase/</loc>
+  </url><url>
     <loc>http://localhost:1313/probabilistic/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/usecase/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url>
